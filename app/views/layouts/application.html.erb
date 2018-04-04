@@ -10,5 +10,7 @@
 
   <body>
     <%= yield %>
+    # app/views/layouts/application.html.erb
+<%= "Railsの環境: #{Rails.env} / staging?: #{Rails.env.staging?}" %>
   </body>
 </html>
